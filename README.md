@@ -1,5 +1,4 @@
-import-cnab-in-rails
-The goal of this project is to provide a simple and efficient solution for importing and analyzing CNAB files.
+ O objetivo deste projeto é fornecer uma solução simples e eficiente para importar e analisar arquivos CNAB.
 
 Execute os seguintes comandos para instalar e configurar o projeto:
 

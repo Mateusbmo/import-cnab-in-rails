@@ -14,32 +14,3 @@ Execute os seguintes comandos para instalar e configurar o projeto:
  ```
   cd import-cnab-in-rails
 
-
-
- 4. Instale as dependências:
-  
- \```
- bundle install 
-
-
- 4. Configure o banco de dados: 
-
- \```
- rails db:create
- rails db:migrate
-
-5. Execução
-Para executar o projeto, utilize o seguinte comando:
-
- \```
-rails server
-
-
-
-6. Isso iniciará o servidor de desenvolvimento e você poderá acessar o projeto em http://localhost:3000.
-
-
-
-
-
-

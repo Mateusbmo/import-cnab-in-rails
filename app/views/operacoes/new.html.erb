@@ -1,0 +1,6 @@
+<h1>Importar arquivo CNAB</h1>
+
+<%= form_tag importar_operacoes_path, multipart: true do %>
+  <%= file_field_tag :arquivo_cnab %>
+  <%= submit_tag "Importar" %>
+<% end %>

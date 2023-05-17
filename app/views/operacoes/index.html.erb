@@ -1,0 +1,30 @@
+<h1>Operações Importadas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Data</th>
+      <th>Valor</th>
+      <th>CPF</th>
+      <th>Cartão</th>
+      <th>Hora</th>
+      <th>Dono da Loja</th>
+      <th>Nome da Loja</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @operacoes.each do |operacao| %>
+      <tr>
+        <td><%= operacao.tipo %></td>
+        <td><%= operacao.data %></td>
+        <td><%= operacao.valor %></td>
+        <td><%= operacao.cpf %></td>
+        <td><%= operacao.cartao %></td>
+        <td><%= operacao.hora %></td>
+        <td><%= operacao.dono_loja %></td>
+        <td><%= operacao.nome_loja %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

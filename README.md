@@ -11,7 +11,7 @@ Execute os seguintes comandos para instalar e configurar o projeto:
 
  2. Acesse o repositório do projeto:
 
- \```
+ ```
   cd import-cnab-in-rails
 
 
